@@ -27,10 +27,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    arduinoparser.cpp \
+    soundcontroller.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    arduinoparser.h \
+    soundcontroller.h
 
 FORMS += \
         mainwindow.ui
